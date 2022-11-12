@@ -1,0 +1,11 @@
+{
+    "name": "distro104/php-challenge",
+    "description": "This is a progect that i made for store challenge and excercises usingPHP language.",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "distro104"
+        }
+    ]
+}
