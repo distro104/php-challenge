@@ -27,15 +27,23 @@ body {
                          "menuside content"
                          "footer footer";
 }
-.container>div{
+.container > div {
     width: 100%;
 }
 
 .top {
     grid-area: top;
-
     display: flex;
-    align-items: center;
+    justify-content: space-around;  
+    align-items: center; 
+    gap: 0;
+}
+
+
+.top svg{
+    width: 100px;
+    height: 100px;
+    margin: 0;
 }
 
 .menutop {
@@ -60,4 +68,83 @@ body {
     grid-area: footer;
 
     background-color: aqua;
+}
+
+/** ANIMATIONS */
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        scale: 4;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.top > *:nth-child(1) {
+    animation: fadein .5s;
+}
+.top > *:nth-child(2) {
+    animation: fadein .3s;
+}
+.top > *:nth-child(3) {
+    animation: fadein .7s;
+}
+.top > *:nth-child(4) {
+    animation: fadein .2s;
+}
+.top > *:nth-child(5) {
+    animation: fadein .8s;
+}
+.top > *:nth-child(6) {
+    animation: fadein 1s;
+}
+.top > *:nth-child(7) {
+    animation: fadein .5s;
+}
+.top > *:nth-child(8) {
+    animation: fadein .4s;
+}
+.top > *:nth-child(9) {
+    animation: fadein .3s;
+}
+.top > *:nth-child(10) {
+    animation: fadein .8s;
+}
+.top > *:nth-child(11) {
+    animation: fadein .3s;
+}
+.top > *:nth-child(12) {
+    animation: fadein .4s;
+}
+
+/* SVG*/
+.top > *:nth-child(13) {
+    animation: fadein 3s;
+}
+
+.top > *:nth-child(14) {
+    animation: fadein .7s;
+}
+.top > *:nth-child(15) {
+    animation: fadein .9s;
+}
+.top > *:nth-child(16) {
+    animation: fadein .3s;
+}
+.top > *:nth-child(17) {
+    animation: fadein .2s;
+}
+.top > *:nth-child(18) {
+    animation: fadein .6s;
+}
+.top > *:nth-child(19) {
+    animation: fadein .9s;
+}
+.top > *:nth-child(20) {
+    animation: fadein .3s;
+}
+.top > *:nth-child(21) {
+    animation: fadein 1s;
 }
