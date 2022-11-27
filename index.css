@@ -5,13 +5,13 @@
     --color-border-light: #d6e2e6;
     --color-border-dark: #585b5c;;
 
-    --color-font-light: #b0c1c7;
+    --color-font-light: #ffffff;
     --color-font-dark: #353232;
 
-    --botton-color: #1c88a3;
-    --botton-color--active: #2b9cb8;
-    --botton-lettler-color: #fff;
-    --botton-lettler-color--active: #fff;
+    --botton-color: #777bb3;
+    --botton-color--active: #9598bd;
+    --botton-lettler-color: rgb(41, 41, 41);
+    --botton-lettler-color--active: rgb(0, 0, 0);
 }
 
 * {
@@ -73,8 +73,6 @@ body {
 
 .menuside {
     grid-area: menuside;
-
-    background-color: green;
 }
 
 .content {
@@ -87,8 +85,29 @@ body {
     padding: 10px 40px;
     overflow-x: nome;
     overflow-y: auto;
-
 }
+.content-index {}
+
+.content-main {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+}
+.content-main aside {
+    border-right: 1px solid black;
+    width: 20%;
+    margin: 0;
+    padding: 5px;
+    overflow-y: auto;
+
+    font-size: .7rem;
+}
+
+.content-main article {
+    width: 80%;
+    padding: 20px;
+}
+
 
 .footer {
     grid-area: footer;
@@ -113,7 +132,7 @@ body {
     margin-top: 20px;
 }
 .button a {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     font-weight: bold;
     color: var(--botton-lettler-color);
