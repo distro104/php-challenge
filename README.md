@@ -26,6 +26,7 @@ arquivo principal onfi ficara o script do desafio
 ![Preview 2](preview2.png)
 
 ## Tecnologia utilizada:
+* PHP
 * HTML
 * CSS
 * Composer
