@@ -2,7 +2,8 @@
 
 ## Objetivo:
 
-Projeto construido com o objetivo de listar desafios com o foco na linguagem PHP que que ja fiz, e a medida que for fazendo vou adicionando eles no projeto como arquivos json. Estes arquivos seram carregados na tela do sistema. Os arquivos json seram arquivos já pre formatados em um formato especifico para serem importados no sistema.
+Ola meu nome é Otávio sou desenvolvedor de software e estou estudando para me aprimorar principalmente nas tecnologias como HTML, CSS, Javascript e principalente minha linguage preferida PHP.
+No momento estou desenvolvendo este projeto com o objetivo de listar desafios algoritmos que fiz e queria uma maneira de listar estes desafios de uma forma mais organizada. Este é o objetivo deste projeto e tambem ja aproveito para me desenvolver um pouco mais usando estas tecnologias. Até o momento este projeto está em desemvolvimento e pode ter alterações futuras a medida que for evoluindo e adquirir mais esperiência durante o processo.
 
 Esta sendo definido um padrao de pastas para os exercicios podendo ser atualizado.
 Segue padrão utilizado ate o momento:
