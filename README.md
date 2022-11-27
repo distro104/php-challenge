@@ -5,7 +5,7 @@
 Projeto construido com o objetivo de listar desafios com o foco na linguagem PHP que que ja fiz, e a medida que for fazendo vou adicionando eles no projeto como arquivos json. Estes arquivos seram carregados na tela do sistema. Os arquivos json seram arquivos já pre formatados em um formato especifico para serem importados no sistema.
 
 Esta sendo definido um padrao de pastas para os exercicios podendo ser atualizado.
-Segue padrão utilizado ate o momentoÇ
+Segue padrão utilizado ate o momento:
 
 Pasta com nome padrao de [challenge-XX] sendo xx uma numeracao definida a medida que os exercicios sao adicionados no projeto.
 A extrutura das pastas com o exercicios sera:
@@ -27,6 +27,5 @@ arquivo principal onfi ficara o script do desafio
 ## Tecnologia utilizada:
 * HTML
 * CSS
-* Javascript
 * Composer
 * GIT e GitHub

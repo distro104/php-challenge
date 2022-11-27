@@ -5,9 +5,9 @@
     </div>
     
     <div class="content content-index">
-        <h1>What is Lorem Ipsum?</h1>
-
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        <h1>What's happens here?</h1>
+Hello, my name is Otávio, I'm a software developer studying to improve myself and in this moment my focus stay in technologies such as HTML, CSS, Javascript and mainly my favorite language PHP.
+I'm currently developing this project with the objective in listing algorithmic challenges that I've done and i want a way to list it  organized. This is the objective of this project and also take the opportunity to develop myself a little more using these technologies in this project. Along this project is under development its may have future changes as it evolves and acquires more experience during the process.
         <div class="button">
             <a href="?page=main">So lets go!!</a>
         </div>

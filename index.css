@@ -106,7 +106,13 @@ body {
 .content-main article {
     width: 80%;
     padding: 20px;
+    overflow: auto;
 }
+.content-main article a svg {
+    width: 40px;
+    height: 40px;
+}
+
 
 
 .footer {
@@ -251,6 +257,6 @@ body {
     }
   
 }
-.footer svg:hover {
+svg:hover {
     animation: pulse 1.5s infinite;
 }
