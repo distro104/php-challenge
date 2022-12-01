@@ -9,9 +9,9 @@
         <aside>
             <a href="?page=index" class="return">Back...</a>
             <h1>Challenge list</h1>
-            <a href="?page=main&challenge=challenge-00">00-DESCRIPT LINK...</a>
-            <a href="?page=main&challenge=challenge-00">00-DESCRIPT LINK...</a>
-            <a href="?page=main&challenge=challenge-00">00-DESCRIPT LINK...</a>
+            <a href="?page=main&challenge=challenge-00">00-DEFAULT...</a>
+            <a href="?page=main&challenge=challenge-00">01-BASEBALL GAME...</a>
+            <a href="?page=main&challenge=challenge-00">02-OTHER GAME...</a>
         </aside>
 
         <article>
@@ -22,14 +22,20 @@
                 Baseball Game
             </h1>
             <p id="description">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type 
-            specimen book. It has survived not only five centuries, but also the leap into 
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 
-            1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
-            recently with desktop publishing software like Aldus PageMaker including versions of 
-            Lorem Ipsum. 
+        You are keeping score for a baseball game with strange rules. The game consists of several rounds
+        where the scores of past rounds may affect future rounds' scores.
+        At the beginning of the game, you start with an empty record. You are given a list of strings ops,
+        where ops[i] is the ith operation you must apply to the record and is one of the following:
+        
+        An integer x - Record a new score of x.
+        '+' - Record a new score that is the sum of the previous two scores. It is guaranteed there will
+        always be two previous scores.
+        'D' - Record a new score that is double the previous score. It is guaranteed there will always be a
+         previous score.
+        'C' - Invalidate the previous score, removing it from the record. It is guaranteed there will
+         always, be a previous score.
+        
+        Return the sum of all the scores on the record.
             </p>
 
             <h2>Example:</h2>
