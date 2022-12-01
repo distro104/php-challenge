@@ -16,7 +16,7 @@
 
     --color-menu-top:#777bb3b6;
     --color-menu: #f0ecec;
-    --color-menu-light: #B2B5B6;
+    --color-menu-light: #c2c6c7;
     --color-menu-dark: #c2c6c7;
 
     font-size: 62.5%;
@@ -135,12 +135,15 @@ body {
     padding: calc(100% -4px);
     font-weight: bold;
     border-bottom: 1px solid var(--color-border-dark);
-    background-color: var(--color-menu-light);
     text-align: center;
 
     transition: all .2s;
 }
 .content-main aside a:hover {
+    background-color: var(--color-menu-light);
+    scale: 1.1;
+}
+.item-select {
     background-color: var(--color-menu-dark);
     scale: 1.1;
 }

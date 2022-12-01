@@ -9,7 +9,7 @@
         <aside>
             <a href="?page=index" class="return">Back...</a>
             <h1>Challenge list</h1>
-            <a href="?page=main&challenge=challenge-00">00-DEFAULT...</a>
+            <a href="?page=main&challenge=challenge-00" class="item-select">00-DEFAULT...</a>
             <a href="?page=main&challenge=challenge-00">01-BASEBALL GAME...</a>
             <a href="?page=main&challenge=challenge-00">02-OTHER GAME...</a>
         </aside>
