@@ -7,7 +7,7 @@
     <div class="content content-main">
 
         <aside>
-            <p class="return"><a href="?page=index">Back...</a></p>
+            <a href="?page=index" class="return">Back...</a>
             <h1>Challenge list</h1>
             <a href="?page=main&challenge=challenge-00">00-DESCRIPT LINK...</a>
             <a href="?page=main&challenge=challenge-00">00-DESCRIPT LINK...</a>
