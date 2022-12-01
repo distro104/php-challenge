@@ -4,7 +4,7 @@
     --color-background-dark: #b2b5b6;
 
     --color-border-light: #d6e2e6;
-    --color-border-dark: #585b5c;;
+    --color-border-dark: #464747;;
 
     --color-font-light: #ffffff;
     --color-font-dark: #353232;
@@ -157,12 +157,24 @@ body {
     padding: 20px;
     overflow: auto;
     font-size: 1.5rem;
+
 }
 .content-main article a svg {
     width: 40px;
     height: 40px;
 }
-
+.content-main article h1 {
+    width: 100%;
+    text-decoration: none;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+.content-main article h2 {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+    border-bottom: 1px solid black;
+}
 
 
 .footer {
