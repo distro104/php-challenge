@@ -12,6 +12,10 @@
     --botton-color--active: #9598bd;
     --botton-lettler-color: rgb(41, 41, 41);
     --botton-lettler-color--active: rgb(0, 0, 0);
+
+    --color-menu-top: #2e2e2e;
+
+    font-size: 62.5%;
 }
 
 * {
@@ -31,7 +35,7 @@ body {
 
 .container
 {
-    width: 750px;
+    max-width: 900px;
  
     display: grid;
     grid-template-columns: 1fr;
@@ -56,6 +60,7 @@ body {
     display: flex;
     justify-content: space-around;  
     font-weight: bold;
+    font-size: 1.9rem;
     align-items: center; 
     gap: 0;
 }
@@ -63,12 +68,6 @@ body {
     width: 100px;
     height: 100px;
     margin: 0;
-}
-
-.menutop {
-    grid-area: menutop;
-
-    background-color: blue;
 }
 
 .menuside {
@@ -86,27 +85,53 @@ body {
     overflow-x: nome;
     overflow-y: auto;
 }
-.content-index {}
+.content-index {
+    font-size: 1.7rem;
+}
 
 .content-main {
     display: flex;
     flex-direction: row;
-    padding: 10px 10px;
+    padding: 10px 5px;
 }
 .content-main aside {
     border-right: 1px solid black;
     width: 20%;
-    margin: 0;
-    padding: 5px;
+    margin: 0 auto;
     overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
 
-    font-size: .7rem;
+    font-size: 1.4rem;
+}
+.content-main ul > * {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-main aside .return {
+    font-weight: bold;
+    font-size: 1.4rem;
+    transition: scale .3s;
+}
+.content-main aside .return::before {
+    content: "<<";
+}
+.content-main aside .return:hover {
+    scale: 1.1;
+}
+.content-main aside h1 {
+    width: 100%;
+    background-color: ;
+    border: var(--color-menu-top);
 }
 
 .content-main article {
     width: 80%;
     padding: 20px;
     overflow: auto;
+    font-size: 1.5rem;
 }
 .content-main article a svg {
     width: 40px;
@@ -120,12 +145,10 @@ body {
 
     display: flex;
     align-items: center;
-    text-align: left;
-
+    justify-content: center;
 }
-.footer a { 
-    width: 40px;
-    height: 40px;
+.footer div a { 
+    padding: 15px;
 }
 .footer svg {
     width: 40px;

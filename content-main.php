@@ -7,35 +7,11 @@
     <div class="content content-main">
 
         <aside>
-            <p><a href="?page=index">Back...</a></p>
+            <p class="return"><a href="?page=index">Back...</a></p>
             <h1>Challenge list</h1>
-            <ul>
-                <li><a href="?page=main&challenge=challenge-00">00 - DESCRIPT LINK...</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-                <li><a href="#">DESCRIPTION LINK</a></li>
-            </ul>
+            <a href="?page=main&challenge=challenge-00">00-DESCRIPT LINK...</a>
+            <a href="?page=main&challenge=challenge-00">00-DESCRIPT LINK...</a>
+            <a href="?page=main&challenge=challenge-00">00-DESCRIPT LINK...</a>
         </aside>
 
         <article>
