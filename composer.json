@@ -1,11 +1,29 @@
 {
-    "name": "distro104/php-challenge",
+    "name": "otavio.cruz/beer_manager",
     "description": "This is a progect that i made for store challenge and excercises usingPHP language.",
-    "type": "project",
-    "license": "GPL",
+    "minimum-stability":"stable",
+	"type": "project",
+    "license": "MIT",
     "authors": [
         {
-            "name": "distro104"
+            "name": "Otavio J. Cruz",
+            "email": "otaviojc@gmail.com",
+			"role":"Developer"
         }
-    ]
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+	"autoload": {
+        "psr-4": {
+            "Source\\":"source/"
+        }
+    },
+	"files": [
+		"source/Config.php"
+	],
+    "require": {
+        "coffeecode/datalayer": "^1.1",
+        "phpunit/phpunit": "^9.5"
+    }
 }
