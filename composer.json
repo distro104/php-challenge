@@ -23,7 +23,7 @@
 		"source/Config.php"
 	],
     "require": {
-        "coffeecode/datalayer": "^1.1",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "coffeecode/router": "2.0.*"
     }
 }
