@@ -1,5 +1,7 @@
 <?php 
 
+require __DIR__ . "/vendor/autoload.php";
+
 $data = new stdClass();
 $data->method = "post";
 $page = filter_input(INPUT_GET, "page", FILTER_SANITIZE_FULL_SPECIAL_CHARS);

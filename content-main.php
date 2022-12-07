@@ -1,9 +1,3 @@
-<div class="menutop">
-        <ul>
-            <li><a href="#"></a></li>
-        </ul>
-    </div>
-    
     <div class="content content-main">
 
         <aside>
