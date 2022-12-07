@@ -1,5 +1,5 @@
 {
-    "name": "otavio.cruz/beer_manager",
+    "name": "otavio.cruz/php-challenge",
     "description": "This is a progect that i made for store challenge and excercises usingPHP language.",
     "minimum-stability":"stable",
 	"type": "project",
@@ -14,7 +14,7 @@
     "config": {
         "vendor-dir": "vendor"
     },
-	"autoload": {
+    "autoload": {
         "psr-4": {
             "Source\\":"source/"
         }
