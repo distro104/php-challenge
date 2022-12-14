@@ -7,9 +7,7 @@
             </a>
             </div>
             <h1>Challenge list</h1>
-            <a href="?page=main&challenge=challenge-00" class="item-select">00-DEFAULT...</a>
-            <a href="?page=main&challenge=challenge-00">01-BASEBALL GAME...</a>
-            <a href="?page=main&challenge=challenge-00">02-OTHER GAME...</a>
+            <?= $list_menu ?>
         </aside>
 
         <article>

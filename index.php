@@ -1,15 +1,22 @@
-<?php 
+<?php
 
 require __DIR__ . "/vendor/autoload.php";
 
 use Source\Teste;
 $teste = new Teste();
-$caminho = __DIR__. 'challenge.json';
-$archive_json = json_decode("challenge.json");
-echo(json_last_error_msg());
 
-//die('teste');
-//use Source\Json;
+/** Get a list of the challenge for the links in menu */
+$list = get_list_challenge();
+
+/**
+ * Create the menu list
+ * @return $list_menu
+ */
+$list_menu = "";
+foreach ($list as $item)
+{
+    $list_menu .= "<a href='?page=main&challenge={$item['folder']}'>{$item['title']}</a>";
+}
 
 
 $data = new stdClass();
@@ -23,6 +30,3 @@ include_once 'include/header.php';
 include_once 'include/'.$page;
 
 include_once 'include/footer.php';
-
-
-?>

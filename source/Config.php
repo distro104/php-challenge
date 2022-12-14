@@ -1,3 +1,5 @@
 <?php
 
-define("PROJECT", "mensagem de teste!!!");
+define("PROJECT_FOLDER", "php-challenge");
+
+define("CHALLENGE_FOLDER", "challenge");
