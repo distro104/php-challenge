@@ -14,17 +14,9 @@
         ],
         "exemple": {
             "exemple_1": [
-                "",
-                "",
-                "",
-                "",
                 ""
             ],
             "exemple_2": [
-                "",
-                "",
-                "",
-                "",
                 ""
             ]
         }
@@ -33,7 +25,7 @@
 
 namespace source;
 
-class Json
+class Challenge
 {
     private string $folder;
     private string $title;

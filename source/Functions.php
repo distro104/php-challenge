@@ -3,14 +3,13 @@ use function UI\Draw\Text\Font\fontFamilies;
 
 /**
  *  ARCHIVE WITH A LIST OF FUNCTIONS THAT ARE USE IN THIS PROJECT
- * 
-    $file = "challenge.json";
-    $data = file_get_contents($file);
-    $obj = json_decode($data);
-    print_r($obj);
- * 
  */
 
+
+ /**
+  * Return an array list with the name folders and title of each exercise.
+  * @return array $list_return
+  */
  function get_list_challenge()
  {
     $list = scandir(CHALLENGE_FOLDER);
@@ -28,3 +27,5 @@ use function UI\Draw\Text\Font\fontFamilies;
 
     return $list_return;
  }
+
+ 
