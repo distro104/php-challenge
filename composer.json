@@ -11,19 +11,12 @@
 			"role":"Developer"
         }
     ],
-    "config": {
-        "vendor-dir": "vendor"
-    },
     "autoload": {
         "psr-4": {
             "Source\\":"source/"
-        }
-    },
-	"files": [
-		"source/Config.php"
-	],
-    "require": {
-        "phpunit/phpunit": "^9.5",
-        "coffeecode/router": "2.0.*"
+        },
+        "files": [
+            "source/Config.php"
+        ]
     }
 }
