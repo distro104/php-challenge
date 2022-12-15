@@ -2,9 +2,7 @@
 
 require __DIR__ . "/vendor/autoload.php";
 
-use source\Challenge;
-use Source\Teste;
-$teste = new Teste();
+use Source\Challenge;
 
 /** Get a list of the challenge for the links in menu */
 $list = get_list_challenge();
@@ -28,8 +26,13 @@ $list_last_item = end($list);
 
 $page = ($page == 'main') ? 'content-main.php' : 'content-index.php';
 $challenge = ($challenge > 0) && ($challenge <= ($list_last_item['folder'])) ? $challenge : 0;
-var_dump($challenge);
 
+/** Request data Json with the function and create an object Challenge **/
+$array_challenge = get_challenge_data($challenge);
+$challenge_main = new Challenge($array_challenge);
+var_dump($challenge_main->exemple);
+
+/** Main part **/
 include_once 'include/header.php';
 
 include_once 'include/'.$page;

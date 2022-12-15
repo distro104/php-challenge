@@ -1,5 +1,7 @@
 <?php
 
+namespace source;
+
 /**
  * Summary of Json
  * 
@@ -23,7 +25,6 @@
     }
  */
 
-namespace source;
 
 class Challenge
 {
@@ -32,7 +33,29 @@ class Challenge
     private $description;
     private $exemple;
 
-    function __construct( array $json_array ){
-        var_dump($json_array);
+    //Get and set Methods
+    public function __get($propert)
+    {
+        if (property_exists($this, $propert)) {
+            return $this->$propert;
+        }
+        return false;
+    }
+
+    public function __set($propert, $value)
+    {
+        if (property_exists($this, $propert)) {
+            $this->$propert = $value;
+            return true;
+        }
+        return false;
+    }
+
+    function __construct(array $challenge){
+
+        $this->folder = $challenge['folder'];
+        $this->title = $challenge['title'];
+        $this->description = implode(' ' ,$challenge['description']);
+        $this->exemple = $challenge['exemple'];
     }
 }
