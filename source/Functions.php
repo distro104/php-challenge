@@ -13,7 +13,7 @@ use function UI\Draw\Text\Font\fontFamilies;
  function get_list_challenge()
  {
     $list = scandir(CHALLENGE_FOLDER);
-    $list = array_slice($list, 2);
+    $list = array_slice($list, 3);
     $list_return = [];
 
     foreach ($list as $item)
@@ -28,4 +28,3 @@ use function UI\Draw\Text\Font\fontFamilies;
     return $list_return;
  }
 
- 
