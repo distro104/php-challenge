@@ -30,7 +30,7 @@ $challenge = ($challenge > 0) && ($challenge <= ($list_last_item['folder'])) ? $
 /** Request data Json with the function and create an object Challenge **/
 $array_challenge = get_challenge_data($challenge);
 $challenge_main = new Challenge($array_challenge);
-var_dump($challenge_main->exemple);
+//var_dump($challenge_main->exemple);
 
 /** Main part **/
 include_once 'include/header.php';
