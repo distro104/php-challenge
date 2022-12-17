@@ -33,6 +33,14 @@ class Challenge
     private $description;
     private $exemple;
 
+    function __construct(array $challenge)
+    {
+        $this->folder = $challenge['folder'];
+        $this->title = $challenge['title'];
+        $this->description = implode(' ', $challenge['description']);
+        $this->exemple = $challenge['exemple'];
+    }
+
     //Get and set Methods
     public function __get($propert)
     {
@@ -51,11 +59,8 @@ class Challenge
         return false;
     }
 
-    function __construct(array $challenge){
+    public function getExemple()
+    {
 
-        $this->folder = $challenge['folder'];
-        $this->title = $challenge['title'];
-        $this->description = implode(' ' ,$challenge['description']);
-        $this->exemple = $challenge['exemple'];
     }
 }

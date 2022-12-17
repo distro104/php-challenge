@@ -32,6 +32,23 @@ $array_challenge = get_challenge_data($challenge);
 $challenge_main = new Challenge($array_challenge);
 //var_dump($challenge_main->exemple);
 
+/** Mount exemple text **/
+$exemple_content = '<div id="exemple">';
+$exemple_number = 0;
+foreach($challenge_main->exemple as $exemple)
+{
+    $exemple_number += 1;
+    $exemple_content .= "<div id='exemple_{$exemple_number}'>";
+    $exemple_content .= "<h3>Exemple: {$exemple_number}</h3>";
+    foreach($exemple as $line)
+    {
+        $exemple_content .= "<p>{$line}</p>";
+    } 
+}
+$exemple_content .= '</div>';
+//var_dump($exemple_content);
+//die();
+
 /** Main part **/
 include_once 'include/header.php';
 

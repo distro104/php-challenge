@@ -12,7 +12,7 @@
 
         <article>
             <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M.2 10a11 11 0 0 1 19.6 0A11 11 0 0 1 .2 10zm9.8 4a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>         
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M.2 10a11 11 0 0 1 19.6 0A11 11 0 0 1 .2 10zm9.8 4a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
             </a>
             <h1><?= $challenge_main->title ?></h1>
             <p id="description">
@@ -21,6 +21,8 @@
 
             <h2>Example(s):</h2>
             <div id="exemple">
+                <?= $exemple_content ?>
+                <!--
                 <div id="exemple_1">
                     <h3>Exemple 1:</h3>
                     <p>Input: ops = ['5','2','C','D','+']</p>
@@ -36,7 +38,7 @@
                     <p>For operation '+', there will always be at least two previous scores on the record.</p>
                     <p>For operations 'C' and 'D', there will always be at least one previous score on the record.</p>
                 </div>
-
+                -->
             </div>
 
         </article>
