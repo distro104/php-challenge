@@ -46,8 +46,7 @@ foreach($challenge_main->exemple as $exemple)
     } 
 }
 $exemple_content .= '</div>';
-//var_dump($exemple_content);
-//die();
+
 
 /** Main part **/
 include_once 'include/header.php';
