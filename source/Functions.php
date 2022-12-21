@@ -43,7 +43,7 @@ function get_challenge_data( int $folder_number )
  * @param mixed $challenge_main_exemple
  * @return string $exemple_content
  */
-function mount_exemple_content($challenge_main_exemple)
+function mount_exemple_content($challenge_main_exemple = null)
 {
     $exemple_content = '<div id="exemple">';
     $exemple_number = 0;
