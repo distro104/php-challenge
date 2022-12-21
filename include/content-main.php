@@ -22,23 +22,6 @@
             <h2>Example(s):</h2>
             <div id="exemple">
                 <?= $exemple_content ?>
-                <!--
-                <div id="exemple_1">
-                    <h3>Exemple 1:</h3>
-                    <p>Input: ops = ['5','2','C','D','+']</p>
-                </div>
-                <div id="exemple_2">
-                    <h3>Exemple 2:</h3>
-                    <p>Input: ops = ['1']</p>
-                    <p>Output: 1</p>
-                    <p></p>
-                    <p>Constraints:</p>
-                    <p>1 <= ops.length <= 1000</p>
-                    <p>ops[i] is 'C', 'D', '+', or a string representing an integer in the range [-3 * 104, 3 * 104].</p>
-                    <p>For operation '+', there will always be at least two previous scores on the record.</p>
-                    <p>For operations 'C' and 'D', there will always be at least one previous score on the record.</p>
-                </div>
-                -->
             </div>
 
         </article>
