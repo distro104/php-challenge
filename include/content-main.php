@@ -21,7 +21,7 @@
 
             <h2>Example(s):</h2>
             <div id="exemple">
-                <?= $exemple_content ?>
+                <?= mount_exemple_content($challenge_main->exemple); ?>
             </div>
 
         </article>

@@ -58,9 +58,4 @@ class Challenge
         }
         return false;
     }
-
-    public function getExemple()
-    {
-
-    }
 }

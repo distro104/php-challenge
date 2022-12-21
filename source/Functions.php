@@ -38,3 +38,25 @@ function get_challenge_data( int $folder_number )
     return $obj;
  }
 
+/**
+ * Return the formated content struture html format for exibition in main page
+ * @param mixed $challenge_main_exemple
+ * @return string $exemple_content
+ */
+function mount_exemple_content($challenge_main_exemple)
+{
+    $exemple_content = '<div id="exemple">';
+    $exemple_number = 0;
+    foreach($challenge_main_exemple as $exemple)
+    {
+        $exemple_number += 1;
+        $exemple_content .= "<div id='exemple_{$exemple_number}'>";
+        $exemple_content .= "<h3>Exemple: {$exemple_number}</h3>";
+        foreach($exemple as $line)
+        {
+            $exemple_content .= "<p>{$line}</p>";
+        } 
+    }
+    $exemple_content .= '</div>';
+    return $exemple_content;
+}
