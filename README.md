@@ -2,7 +2,7 @@
 
 ## Objetivo:
 
-Ola meu nome é Otávio sou desenvolvedor de software e estou estudando para me aprimorar principalmente nas tecnologias como HTML, CSS, Javascript e principalente minha linguage preferida PHP.
+Ola meu nome é Otávio sou desenvolvedor de software e estou estudando para me aprimorar principalmente nas tecnologias como HTML, CSS, Javascript e principalente minha linguagem preferida PHP.
 No momento estou desenvolvendo este projeto com o objetivo de listar desafios algoritmos que fiz e queria uma maneira de listar estes desafios de uma forma mais organizada. Este é o objetivo deste projeto e tambem ja aproveitar para me desenvolver um pouco mais usando estas tecnologias. Até o momento este projeto está em desenvolvimento e pode ter alterações futuras a medida que for evoluindo e adquirir mais esperiência durante o processo.
 
 Os desafios estão organizados dentro do diretório [challenge] separados tambem por outros diretórios internos e dentro deles teram os seguintes arquivos:
