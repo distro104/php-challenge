@@ -143,16 +143,12 @@ body {
 
     transition: all .2s;
 }
-.content-main aside a:hover {
+.content-main aside a:hover , .content-main aside .item-select {
     border: 1px solid black;
     background-color: var(--color-menu-light);
     scale: 1.1;
 }
-.content-main aside .item-select {
-    border: 1px solid black;
-    background-color: var(--color-menu-dark);
-    scale: 1.1;
-}
+
 .content-main aside h1 {
     width: 100%;
     background-color: var(--color-menu-top);
@@ -163,7 +159,6 @@ body {
     padding: 20px;
     overflow: auto;
     font-size: 1.5rem;
-
 }
 .content-main article a svg {
     width: 40px;
@@ -181,7 +176,6 @@ body {
     margin: 20px 0px;
     border-bottom: 1px solid black;
 }
-
 
 .footer {
     grid-area: footer;

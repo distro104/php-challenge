@@ -4,6 +4,11 @@ require __DIR__ . "/vendor/autoload.php";
 
 use Source\Challenge;
 
+$data = new stdClass();
+$data->method = "post";
+$page = filter_input(INPUT_GET, "page", FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+(int) $challenge = filter_input(INPUT_GET, "challenge", FILTER_SANITIZE_NUMBER_INT);
+
 /** Get a list of the challenge for the links in menu */
 $list = get_list_challenge();
 
@@ -14,13 +19,10 @@ $list = get_list_challenge();
 $list_menu = "";
 foreach ($list as $item)
 {
-    $list_menu .= "<a href='?page=main&challenge={$item['folder']}'>{$item['title']}</a>";
+    $item_menu_class = ($item['folder']==$challenge) ? 'item-select' : '';
+    $list_menu .= "<a href='?page=main&challenge={$item['folder']}' class='{$item_menu_class}'>{$item['title']}</a>";
 }
 
-$data = new stdClass();
-$data->method = "post";
-$page = filter_input(INPUT_GET, "page", FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-(int) $challenge = filter_input(INPUT_GET, "challenge", FILTER_SANITIZE_NUMBER_INT);
 
 $list_last_item = end($list);
 

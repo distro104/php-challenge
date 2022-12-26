@@ -1,6 +1,6 @@
 {
     "folder":"0",
-    "title":"Title",
+    "title":"Select one challenge.",
     "description": [
         "",
         "",
@@ -8,19 +8,6 @@
         ""
     ],
     "exemple": {
-        "exemple_1": [
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "exemple_2": [
-            "",
-            "",
-            "",
-            "",
-            ""
-        ]
+
     }
 }

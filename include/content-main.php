@@ -18,8 +18,6 @@
             <p id="description">
                 <?= $challenge_main->description ?>
             </p>
-
-            <h2>Example(s):</h2>
             <div id="exemple">
                 <?= mount_exemple_content($challenge_main->exemple); ?>
             </div>
