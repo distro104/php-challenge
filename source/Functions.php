@@ -1,7 +1,6 @@
 <?php
 /* ARCHIVE WITH A LIST OF FUNCTIONS THAT ARE USE IN THIS PROJECT */
 
-
 /**
  * Return an array list with the name folders and title of each exercise.
  * @return array $list_return[folder, title]
