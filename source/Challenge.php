@@ -1,9 +1,9 @@
 <?php
 
-namespace source;
+namespace Source;
 
 /**
- * Summary of Json
+ * Summary/Extructure of Json archive
  * 
     {
         "folder":"challenge-00",
@@ -24,7 +24,6 @@ namespace source;
         }
     }
  */
-
 
 class Challenge
 {
