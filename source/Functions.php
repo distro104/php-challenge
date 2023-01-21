@@ -19,7 +19,6 @@
         $obj = array_slice($obj,0,2);
         array_push($list_return, $obj);
     }
-
     return $list_return;
  }
 
