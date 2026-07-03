@@ -20,7 +20,8 @@ arquivo principal onde ficara o script do desafio
 ![Preview 2](preview2.png)
 
 ## Observacao:
-Caso seja feito o download do projeto sera necessario rodar o comando [composer update].
+Para que a pagina abra normalmente depois de feito o download ou clone do projeto deve- se acessar a pasta do mesmo e rodar o comando:
+> composer update
 
 ## Tecnologias:
 ![image](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
